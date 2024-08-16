@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow-x:hidden ;
+}
+
+.myhov:hover{color: red;}
+.logo-img{width: 70px;}
+.gap-nav{margin-left:auto;}
+.banner-icon{font-size: 30px;}
+.banner-img img{
+    width: 300px;
+    border-radius:5px ;
+}
+.banner-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.card {
+    overflow: hidden;
+    
+  }
+  .card-card{
+    border: 1px solid rgb(187, 177, 177);
+    border-radius: 9px;
+    padding: 10px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+ 
+  
+  .carousel, .carousel-inner, .carousel-item {
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .txt-btn {
+    font-size: 0.8em;
+    padding: 5px 8px;
+    text-align: center;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+ #port-btn{
+  font-size: 30px;
+  margin-right: 18px;
+  cursor: pointer;
+ }
+ .exp-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .exp-container dd{
+  margin-left: 30px;
+ }
+.exp-container dt{
+  margin-bottom: 30px;
+}
+.contact-us{
+  box-shadow:4px 4px 8px gray;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.input-box{
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.massage{
+  margin-top: 50px;
+  padding: 50px;
+
+
+}
+
+.send{
+
+  width: 500px;
+  padding: 20px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bd{
+  border: 1px solid rgb(207, 199, 199);
+}
+#margin-right{
+  margin-right: 20px;
+}
+footer{
+  margin-top: 60px;
+  border-top: 1px solid rgb(101, 94, 94) ;
+  height: 50vh;
+}
+
+/* phone  */
+@media only screen and (min-width:0px) and (max-width:425px){
+  .logo-img{
+   margin-top: 12px;
+  }
+  .banner-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-img img{
+    width: 100%;
+    margin-top: 30px;
+   
+  }
+  .btn-top{
+    margin-top: 10px;
+  }
+  .input-box{
+    padding:2px ;
+  }
+  .contact-us{
+    width: 80%;
+  }
+  .massage{
+    padding: 30px;
+    margin-top:20px ;
+  }
+  .send{
+    width: 250px;
+  }
+  .txt-btn{ margin-right: 5px;}
+  .exp-container{ flex-direction: column; gap:35px;}
+  .second-exp h5{font-size: 100%;}
+}
+
+/* tablet  */
+
+
+@media only screen and (min-width:426px) and (max-width:768px)
+{
+  .logo-img{
+    margin-top: 12px;
+   }
+  #com-top{
+    margin-top: 10px;
+  }
+  .send{
+    width: 300px;
+  }
+}
